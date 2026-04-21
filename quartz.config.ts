@@ -8,16 +8,17 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Quartz 4",
+    pageTitle: "The Gloaming",
     pageTitleSuffix: "",
-    enableSPA: true,
+    enableSPA: false,
     enablePopovers: true,
     analytics: {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    baseUrl: "the-gloaming-wiki.pages.dev",
+    trailingSlash: true,	
+    ignorePatterns: ["private", "templates", ".obsidian", "_gm", "assets"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
