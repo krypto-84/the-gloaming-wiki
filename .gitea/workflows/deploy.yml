@@ -23,7 +23,8 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
 
-      - name: Publish to Codeberg Pages
-        uses: codeberg-pages/pages-action@v1
+      - uses: https://codeberg.org/git-pages/action@v2
         with:
-          folder: public
+          site: "https://kryptonick.codeberg.page/the-gloaming-wiki/"
+          token: ${{ forge.token }}
+          source: public/
