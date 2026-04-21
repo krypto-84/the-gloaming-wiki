@@ -16,7 +16,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     locale: "en-US",
-    baseUrl: "the-gloaming-wiki.pages.dev",
+    baseUrl: "gloaming.kryptonick.com",
     trailingSlash: true,	
     ignorePatterns: ["private", "templates", ".obsidian", "_gm", "assets"],
     defaultDateType: "modified",
