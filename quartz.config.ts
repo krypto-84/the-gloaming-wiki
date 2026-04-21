@@ -18,7 +18,7 @@ const config: QuartzConfig = {
     locale: "en-US",
     baseUrl: "gloaming.kryptonick.com",
     trailingSlash: true,	
-    ignorePatterns: ["private", "templates", ".obsidian", "_gm", "assets"],
+    ignorePatterns: ["private", "templates", ".obsidian", "_gm"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
